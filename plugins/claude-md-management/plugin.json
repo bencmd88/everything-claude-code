@@ -1,0 +1,31 @@
+{
+  "name": "claude-md-management",
+  "version": "1.0.0",
+  "description": "Manage CLAUDE.md files across projects — create, update, validate, and keep them in sync with your codebase.",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://anthropic.com"
+  },
+  "repository": "anthropics/claude-plugins-official",
+  "license": "MIT",
+  "keywords": [
+    "claude-md",
+    "project-context",
+    "documentation",
+    "workflow",
+    "setup"
+  ],
+  "skills": [
+    "claude-md-management"
+  ],
+  "agents": [
+    "claude-md-manager"
+  ],
+  "features": {
+    "agents": 1,
+    "commands": 1,
+    "skills": 1,
+    "configAssets": false,
+    "hookEvents": []
+  }
+}
